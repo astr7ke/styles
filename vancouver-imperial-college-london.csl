@@ -87,7 +87,7 @@
         <group delimiter=" ">
           <choose>
             <if variable="DOI">
-              <text variable="DOI" prefix="https://doi.org/" suffix="."/>
+              <text variable="DOI" prefix="doi:" suffix="."/>
             </if>
             <else>
               <text variable="URL"/>
